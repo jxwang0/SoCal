@@ -29,7 +29,7 @@ set_error_handler("exception_error_handler");
 require_once 'vendor/autoload.php';
 
 // Backends
-$authBackend = new Sabre\DAV\Auth\Backend\PDO($pdo);
+$authBackend = new Sabre\DAV\Auth\Backend\PDOBasic($pdo);
 $calendarBackend = new Sabre\CalDAV\Backend\PDO($pdo);
 $principalBackend = new Sabre\DAVACL\PrincipalBackend\PDO($pdo);
 
