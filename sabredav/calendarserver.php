@@ -10,7 +10,6 @@ This server features CalDAV support
 
 // settings
 date_default_timezone_set('Canada/Eastern');
-
 // If you want to run the SabreDAV server in a custom location (using mod_rewrite for instance)
 // You can override the baseUri here.
 // $baseUri = '/';
