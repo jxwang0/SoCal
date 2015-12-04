@@ -1,2 +1,2 @@
 # SoCal
-Innovation and Invention: Entrepreneurial Lessons for Computer Scientists 
+Shout-out to Robert Fish
